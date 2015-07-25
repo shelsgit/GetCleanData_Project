@@ -1,53 +1,52 @@
-TidySet_AVEsCOOKBOOK
-----------------------
+#TidySet_AVEs COOKBOOK
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL)
 while carrying a waist-mounted smartphone with embedded inertial sensors.
-REfer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-----------------------
-
-Activity
-	Activity of daily living (ADL)
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-
-		STANDING
-		LAYING
+Refer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-Subject
-	Subject id# (1-30) of person performing each experiment
-		1
-		2
-		3
-		4
-		5
-		6
-		7
-		8
-		9
-		10
-		11
-		12
-		13
-		14
-		15
-		16
-		17
-		18
-		19
-		20
-		21
-		22
-		23
-		24
-		25
-		26
-		27
-		28
-		29
-		30
+##Activity
+###Activity of daily living (ADL)
+** WALKING
+** WALKING_UPSTAIRS
+** WALKING_DOWNSTAIRS
+** SITTING
+
+** STANDING
+** LAYING
+
+
+##Subject
+###Subject id# (1-30) of person performing each experiment
+** 1
+** 2
+** 3
+** 4
+** 5
+** 6
+** 7
+** 8
+** 9
+** 10
+** 11
+** 12
+** 13
+** 14
+** 15
+** 16
+** 17
+** 18
+** 19
+** 20
+** 21
+** 22
+** 23
+** 24
+** 25
+** 26
+** 27
+** 28
+** 29
+** 30
 
 tBodyAcc-mean()-X
 	For this variable, and all variables below, each represents a signal to estimate variables of the feature vector for each pattern.
