@@ -51,7 +51,7 @@ Subject id# (1-30) of person performing each experiment
 
 * tBodyAcc-mean()-X  
 
-For this variable, and all variables below, each represents a signal to estimate variables of the feature vector for each pattern.  
+For this variable, and all variables below, each represents the average of all test and train datasets, grouped by each Activity and Subject.
      '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  
      '-mean()' is used to denote mean value  
      '-std()' is used to denote Standard deviation  
