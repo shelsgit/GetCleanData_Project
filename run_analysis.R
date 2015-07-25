@@ -56,5 +56,5 @@ Tidymelt <- melt(data = TidySet,id=c("Subject", "Activity"), measure.vars = coln
 TidySet_AVEs <- dcast(Tidymelt, Activity + Subject ~ variable, mean)
 
 # Remove all other sets
-#rm(Cols_set_Features, Cols_Y_Activity, Test_Combined, Test_Subj, TestX_Set, TestY_Set, Tidymelt, Train_Combined, Train_Subj, TrainX_Set, TrainY_Set)
-#rm(Cols_set_FeaturesURL, Cols_Y_ActivityURL, MeanSD_Cols, ptn1, ptn2, Test_SubjURL, TestX_SetURL, TestY_SetURL, Train_SubjURL, TrainX_SetURL, TrainY_SetURL)
+rm(Cols_set_Features, Cols_Y_Activity, Test_Combined, Test_Subj, TestX_Set, TestY_Set, Tidymelt, Train_Combined, Train_Subj, TrainX_Set, TrainY_Set)
+rm(Cols_set_FeaturesURL, Cols_Y_ActivityURL, MeanSD_Cols, ptn1, ptn2, Test_SubjURL, TestX_SetURL, TestY_SetURL, Train_SubjURL, TrainX_SetURL, TrainY_SetURL)
