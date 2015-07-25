@@ -25,8 +25,11 @@ Instructions - how to run the script
 
 4. From 'R', install and load the dplry and reshape2 packages by entering the following:
 	> install.packages("dplyr")
+
 	> library(dplyr)
+
 	> install.packages("reshape2")
+
 	> library(reshape2)
 	
 5. From 'R', run the 'run_analysis.R' script by entering the following:

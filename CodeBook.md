@@ -50,11 +50,11 @@ Subject
 		30
 
 tBodyAcc-mean()-X
-	For this variable, and all variables below, each represents a signal to estimate variables of the feature vector for each pattern:
+	For this variable, and all variables below, each represents a signal to estimate variables of the feature vector for each pattern.
 	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 	'-mean()' is used to denote mean value
 	'-std()' is used to denote Standard deviation	
-
+	Each value is normalized and bounded within [-1,1]
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
 tGravityAcc-mean()-X
